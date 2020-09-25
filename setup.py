@@ -6,30 +6,20 @@ from setuptools import setup
 install_requires = [
     "numpy",
     "keras",
-    "tokenizer_tools",
-    "flask",
-    "flask-cors",
-    "ioflow",
-    "tf-crf-layer",
-    "tf-attention-layer",
     "tensorflow==1.15.0",
-    "deliverable_model==0.4.1",
-    "gunicorn",
-    "micro_toolkit",
-    "seq2annotation"
 ]
 
 
 setup(
     # _PKG_NAME will be used in Makefile for dev release
-    name=os.getenv("_PKG_NAME", "mtnlpmodel"),
-    version="0.0.4",
+    name=os.getenv("_PKG_NAME", "adversal_embedding"),
+    version="0.0.1",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    url="https://github.com/xiaomihao/mtnlp_model",
+    url="https://github.com/xiaomihao/adversal_embedding",
     license="Apache 2.0",
     author="Xiao Mi",
     author_email="1922188869@qq.com",
-    description="mtnlpmodel",
+    description="adversal_embedding",
     install_requires=install_requires,
 )

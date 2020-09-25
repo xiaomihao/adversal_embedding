@@ -12,7 +12,7 @@ pip install adversal_embedding
 ## 使用
 ```
 from keras.models import load_model
-from adversal_embedding.core import adversal_embedding
+from adversal_embedding.core import adversarial_training
 
 model = load_model(model_dir)
 model.compile(optimizer=optimizer, loss=loss, metrics=metrics)

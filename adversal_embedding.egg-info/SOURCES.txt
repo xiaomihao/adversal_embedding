@@ -1,0 +1,7 @@
+README.md
+setup.py
+adversal_embedding.egg-info/PKG-INFO
+adversal_embedding.egg-info/SOURCES.txt
+adversal_embedding.egg-info/dependency_links.txt
+adversal_embedding.egg-info/requires.txt
+adversal_embedding.egg-info/top_level.txt
