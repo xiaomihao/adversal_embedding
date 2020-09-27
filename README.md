@@ -21,3 +21,5 @@ model.fit(train_data, test_data, epochs=epochs, batch_size=batch_size)
 
 ```
 
+### 参考
+https://github.com/bojone/keras_adversarial_training
