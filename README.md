@@ -11,7 +11,6 @@ pip install adversal_embedding
 ```
 ## 使用
 ```
-import adversal_embedding
 from keras.models import load_model
 from adversal_embedding.core import adversarial_training
 

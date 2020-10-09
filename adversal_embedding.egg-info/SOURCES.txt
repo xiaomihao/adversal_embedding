@@ -1,5 +1,7 @@
 README.md
 setup.py
+adversal_embedding/__init__.py
+adversal_embedding/core.py
 adversal_embedding.egg-info/PKG-INFO
 adversal_embedding.egg-info/SOURCES.txt
 adversal_embedding.egg-info/dependency_links.txt
